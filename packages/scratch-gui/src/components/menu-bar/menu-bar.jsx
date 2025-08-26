@@ -93,6 +93,9 @@ import ninetiesLogo from './nineties_logo.svg';
 import catLogo from './cat_logo.svg';
 import prehistoricLogo from './prehistoric-logo.svg';
 import oldtimeyLogo from './oldtimey-logo.svg';
+import TsoLogo from './TSOLogo.png';
+import TsoLogoWhite from './TSOLogoWhiteLandscape.png';
+import TsoLogoWhiteSquare from './TSOLogoWhiteSquare.png';
 
 import sharedMessages from '../../lib/shared-messages';
 
@@ -111,7 +114,7 @@ const ariaMessages = defineMessages({
     }
 });
 
-const getScratchLogo = platform => (platform === PLATFORM.ANDROID ? scratchLogoAndroid : scratchLogo);
+const getScratchLogo = platform => (platform === PLATFORM.ANDROID ? scratchLogoAndroid : TsoLogoWhite);
 
 const MenuBarItemTooltip = ({
     children,
